@@ -1,23 +1,18 @@
 import streamlit as st
-
 import pandas as pd
-
 import plotly.express as px
-
 import matplotlib.pyplot as plt
 
 st.title(" Ahoj Svet a Streamlit")
 
 st.write(
-
     "Toto je moja prvá aplikácia v Streamlite"
-
 )
 
 data = pd.DataFrame({
 
     "Kategorie" : ["A", "B", "C", "D"],
-    "Hodnoty" : [25, 40, 35, 30]
+    "Hodnoty" : [12, 40, 35, 80]
 
 })
 
